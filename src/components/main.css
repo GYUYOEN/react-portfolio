@@ -16,7 +16,7 @@
 
 .main {
   display: flex;
-  position: absolute;
+  position: static;
   justify-content: center;
   height: 100vh;
   width: 100vw;
@@ -56,7 +56,7 @@
 }
 
 .title-welcome {
-  top: -1%;
+  top: -5%;
   right: 40%;
   position: relative;
   font-size: 150px;
@@ -65,8 +65,8 @@
 }
 
 .title-name {
-  top : -25%;
-  left: 15%;
+  top : -35%;
+  left: 20%;
   position: relative;
   animation: fadeInUp 1s;
   font-family: 'Shadows Into Light', cursive;
@@ -74,7 +74,7 @@
 }
 
 .title-developer {
-  top : -45%;
+  top : -60%;
   position: relative;
   animation: fadeInUp 1s;
 font-family: 'Rowdies', cursive;
@@ -82,7 +82,7 @@ font-family: 'Rowdies', cursive;
 }
 
 .title-portfolio {
-  bottom: 65%;
+  bottom: 85%;
   left: 40%;
   position: relative;
   animation: fadeInRight 1s;
