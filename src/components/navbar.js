@@ -9,6 +9,9 @@ function Navbar() {
                 </div>
                 <ul className="nav-link">
                     <li>
+                        <a className="url" href="#!">about me</a>
+                    </li>
+                    <li>
                         <a className="url" href="#!">project</a>
                     </li>
                     <li>

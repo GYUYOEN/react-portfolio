@@ -17,15 +17,15 @@
     left: 40%;
 }
 
-.container {
+.values-container {
     position: absolute;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 30px;
-    left: 3%;
+    left: 5%;
     top: 30%;
 }
 
-.values-container {
+.values-intro {
     display: inline-block;
     width: 300px;
     margin: 50px;

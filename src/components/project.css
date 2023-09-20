@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;900&family=Josefin+Sans:wght@700&family=Nanum+Pen+Script&family=Permanent+Marker&family=Rowdies&family=Shadows+Into+Light&display=swap');
+
+.project {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.project-title {
+    position: absolute;
+    top: 8%;
+    left: 200px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+}
+
+.workforus {
+    position: absolute;
+    width: 1000px;
+    top: 25%;
+    left: 100px;
+}
+
+.project-container {
+    font-family: 'Nanum Pen Script', cursive;
+    top: 15%;
+    position: absolute;
+    left: 1150px;
+    width: 650px;
+}
+
+.project-subject {
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: #fda66b;
+    margin-bottom: 10px;
+}
+
+.project-explain {
+    font-size: 25px;
+}
