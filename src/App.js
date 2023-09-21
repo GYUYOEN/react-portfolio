@@ -3,6 +3,7 @@ import Main from './components/main';
 import AboutMe from './components/aboutme';
 import Values from './components/values';
 import Project from './components/project';
+import Skill from './components/skill';
 
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <Values />
       <Project />
+      <Skill />
     </div>
   );
 }

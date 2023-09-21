@@ -1,0 +1,42 @@
+.skill {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.skill-title {
+    font-size: 60px;   
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.pie-chart {
+  margin: 100px;
+  position: relative;
+  display:inline-block;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+span.center{
+  background: #fff7f2;
+  display : block;
+  position: absolute;
+  top:50%; left:50%;
+  width:70px; height:70px;
+  border-radius: 50%;
+  text-align:center; 
+  line-height: 85px;
+  font-size:30px;
+  transform: translate(-50%, -50%);
+}
+
+.icon {
+    width: 40px;
+}
+
+.number {
+  font-size: 20px;
+  margin: -30px;
+}

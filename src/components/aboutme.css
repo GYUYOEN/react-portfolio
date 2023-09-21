@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;900&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;900&family=Josefin+Sans:wght@700&family=Nanum+Pen+Script&family=Permanent+Marker&family=Rowdies&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 .aboutme {
     position: relative;
@@ -37,7 +38,7 @@
     top: 52%;
     left: 1100px;
     transform: translate(-50%, -50%);
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 40px;
     z-index: 5;
     border-radius: 10px;
