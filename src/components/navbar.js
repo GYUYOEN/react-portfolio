@@ -5,7 +5,7 @@ function Navbar() {
         <header>
             <nav className="navbar">
                 <div className="brand">
-                    <a className="url" href="#!">about GueYeon</a>
+                    <a className="url" href="#!">about GyuYeon</a>
                 </div>
                 <ul className="nav-link">
                     <li>

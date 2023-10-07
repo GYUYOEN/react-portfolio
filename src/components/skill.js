@@ -11,17 +11,18 @@ import Linux from "./linux.png";
 import Mysql from "./mysql.png";
 import Reac from "./react.png";
 import Cp from "./c++.png";
+import Dev from "./developer.png";
 
 function Skill() {
   $(window).ready(function () {
-    draw(70, ".pie-chart1", "#ff6600");
-    draw(70, ".pie-chart2", "#f57723");
-    draw(60, ".pie-chart3", "#449064");
-    draw(60, ".pie-chart4", "#ffa76d");
-    draw(30, ".pie-chart5", "#f3b891");
-    draw(10, ".pie-chart6", "#ffd8bd");
-    draw(10, ".pie-chart7", "#ffecdf");
-    draw(60, ".pie-chart8", "#fff7f2");
+    draw(70, ".pie-chart1", "#1E82FF");
+    draw(70, ".pie-chart2", "#1E82FF");
+    draw(60, ".pie-chart3", "#1E82FF");
+    draw(60, ".pie-chart4", "#1E82FF");
+    draw(30, ".pie-chart5", "#1E82FF");
+    draw(10, ".pie-chart6", "#1E82FF");
+    draw(10, ".pie-chart7", "#1E82FF");
+    draw(60, ".pie-chart8", "#1E82FF");
   });
 
   function draw(max, classname, colorname) {
@@ -33,7 +34,7 @@ function Skill() {
       } else {
         clearInterval(func1);
       }
-    }, 10);
+    }, 20);
   }
   
 
@@ -59,28 +60,34 @@ function Skill() {
         <div className="pie-chart pie-chart1">
           <span className="center">
             <img className="icon" src={Java} alt="icon"></img>
-            <p className="number">70</p>
+            <p className="number">70%</p>
           </span>
         </div>
         <div className="pie-chart pie-chart2">
           <span className="center">
             <img className="icon" src={Js} alt="icon"></img>
-            <p className="number">70</p>
+            <p className="number">70%</p>
           </span>
         </div>
         <div className="pie-chart pie-chart3">
           <span className="center">
             <img className="icon" src={Css} alt="icon"></img>
-            <p className="number">60</p>
+            <p className="number">60%</p>
           </span>
         </div>
         <div className="pie-chart pie-chart4">
           <span className="center">
             <img className="icon" src={Html} alt="icon"></img>
-            <p className="number">60</p>
+            <p className="number">60%</p>
           </span>
         </div>
         <br />
+        <div className="pie-chart pie-chart8">
+          <span className="center">
+            <img className="icon" src={Mysql} alt="icon"></img>
+            <p className="number">60%</p>
+          </span>
+        </div>
         <div className="pie-chart pie-chart5">
           <span className="center">
             <img className="icon" src={Linux} alt="icon"></img>
@@ -99,12 +106,14 @@ function Skill() {
             <p className="number">10%</p>
           </span>
         </div>
-        <div className="pie-chart pie-chart8">
-          <span className="center">
-            <img className="icon" src={Mysql} alt="icon"></img>
-            <p className="number">60%</p>
-          </span>
-        </div>
+      </div>
+      <div className="skill-text">
+        <p><p className="skill-text-title">나의 주언어<img className="developer" src={Dev} alt="developer"></img></p> : JAVA</p>
+        <p className="skill-text-title">사용해왔던 기술들<img className="developer" src={Dev} alt="developer"></img></p>
+        <p>- BackEnd : Spring, Jsp</p>
+        <p>- DataBase(DB) : MariaDB, MySql, Oracle, MyBatis, Jpa</p>
+        <p>- FrontEnd : Html, Css, JavaScript</p>
+        <p><p className="skill-text-title">현재 관심있는 언어<img className="developer" src={Dev} alt="developer"></img></p> : C++, React</p>
       </div>
     </section>
   );

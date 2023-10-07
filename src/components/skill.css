@@ -1,26 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
 .skill {
     position: relative;
     height: 100vh;
     width: 100vw;
+    background-color: #363636;
 }
 
 .skill-title {
+  position: absolute;
     font-size: 60px;   
     font-family: 'Shadows Into Light', cursive;
+    color: rgb(214, 214, 214);
+    left: 45%;
 }
 
 .pie-chart {
-  margin: 100px;
+  margin: 250px 0 0 100px;
   position: relative;
   display:inline-block;
   left: 200px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   transition: 0.3s;
 }
 span.center{
-  background: #fff7f2;
+  background: #363636;
   display : block;
   position: absolute;
   top:50%; left:50%;
@@ -39,4 +45,27 @@ span.center{
 .number {
   font-size: 20px;
   margin: -30px;
+}
+
+.skill-text {
+  position: relative;
+  padding: 30px;
+  background-color: #dfdfdf;
+  font-size: 17px;
+  left: 1150px;
+  bottom: 450px;
+  width: 500px;
+  height: 450px;
+  border-radius: 5%;
+  font-family: 'Jua', sans-serif;
+}
+
+.skill-text-title {
+  font-size: 22px;
+}
+
+.developer {
+  margin-left: 15px;
+  width: 7%;
+  height: 7%;
 }

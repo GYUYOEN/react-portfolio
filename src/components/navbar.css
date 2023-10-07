@@ -2,14 +2,14 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 10;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #161616;
     width: 100vw;
     padding: 8px 12px;
 }
@@ -35,7 +35,7 @@ header {
 
 .url {
     font-size: 24px;
-    color: black;
+    color: rgb(179, 178, 178);
     text-decoration: none;
     position: relative;
     padding: 8px 12px;
