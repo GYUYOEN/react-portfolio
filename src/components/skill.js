@@ -13,8 +13,23 @@ import Reac from "./react.png";
 import Cp from "./c++.png";
 import Dev from "./developer.png";
 
+import {useEffect, useState} from 'react';
+
+var flag = true;
 function Skill() {
-  $(window).ready(function () {
+  const [position, setPosition] = useState(0);
+  function onScroll() {
+      console.log(window.scrollY)
+      setPosition(window.scrollY);
+  }
+  useEffect(() => {
+      window.addEventListener("scroll", onScroll);
+      return () => {
+          window.removeEventListener("scroll", onScroll);
+      };
+  }, []);
+  
+  if(position>3200 && flag) {
     draw(70, ".pie-chart1", "#1E82FF");
     draw(70, ".pie-chart2", "#1E82FF");
     draw(60, ".pie-chart3", "#1E82FF");
@@ -23,7 +38,8 @@ function Skill() {
     draw(10, ".pie-chart6", "#1E82FF");
     draw(10, ".pie-chart7", "#1E82FF");
     draw(60, ".pie-chart8", "#1E82FF");
-  });
+    flag  = false;
+  } 
 
   function draw(max, classname, colorname) {
     var i = 1;

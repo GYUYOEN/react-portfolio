@@ -22,8 +22,7 @@
     position: absolute;
     height: 500px;
     width: 450px;
-    top: 50%;
-    left: 530px;
+    top: 23%;
     transform: translate(-50%, -50%);
     z-index: 7;
     border-radius: 10px;
@@ -35,7 +34,7 @@
     background-color: #dfdfdf;
     height: 500px;
     width: 820px;
-    top: 52%;
+    top: 25%;
     left: 1150px;
     transform: translate(-50%, -50%);
     font-family: 'Jua', sans-serif;
