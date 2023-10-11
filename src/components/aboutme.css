@@ -46,3 +46,10 @@
 .aboutme-text {
     padding: 0 40px 0 40px;
 }
+
+.more-about-me {
+    padding: 0 40px 0 40px;
+    color: #838282;
+    font-size: 25px;
+    text-align: center;
+}
